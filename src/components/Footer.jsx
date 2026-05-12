@@ -22,10 +22,10 @@ const Footer = () => {
 
                 <div className="text-gray-300">
                     <h3 className="font-semibold mb-8">Quick Link's</h3>
-                    <a href="/" className="block text-gray-300 mb-2 hover:text-white underline">Home</a>
-                    <a href="/shop" className="block text-gray-300 mb-2 hover:text-white underline">Type’s Of plant’s</a>
-                    <a href="/contact" className="block text-gray-300 mb-2 hover:text-white underline">Contact </a>
-                    <a href="/contact" className="block text-gray-300 mb-2 hover:text-white underline">Privacy </a>
+                    <a href="/" className="block text-gray-300 mb-2 hover:text-white underline underline-offset-4">Home</a>
+                    <a href="/shop" className="block text-gray-300 mb-2 hover:text-white underline underline-offset-4">Type’s Of plant’s</a>
+                    <a href="/contact" className="block text-gray-300 mb-2 hover:text-white underline underline-offset-4">Contact </a>
+                    <a href="/contact" className="block text-gray-300 mb-2 hover:text-white underline underline-offset-4">Privacy </a>
                 </div>
 
                 <div >
@@ -35,15 +35,15 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Enter email"
-                            className="p-2 rounded w-full text-white bg-gray-800"
+                            className="p-2 rounded w-full text-white bg-[#192116] transparent outline-none ring-0"
                         />
-                        <button className="text-black text-sm font-bold bg-white px-4 py-2 rounded">SUBSCRIBE</button>
+                        <button className="text-black border border-white text-sm font-bold bg-white px-4 py-2 rounded">SUBSCRIBE</button>
                     </div>
 
                     <span className="text-gray-300 text-sm mt-28 block">FloraVision © all right reserve</span>
                 </div>
 
-            </div>
+            </div>[]
 
         </footer>
     );

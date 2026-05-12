@@ -16,10 +16,8 @@ const O2Section = ({ image, name, price, description1, description2 }) => {
                             <p className="text-white" style={{ whiteSpace: 'pre-wrap' }}>{description1}</p>
                             <p className="text-white" style={{ whiteSpace: 'pre-wrap' }}>{description2}</p>
                             <div>
-                                <button className="mt-4 border-2 border-white text-white px-8 py-2 rounded-lg cursor-pointer">Explore</button>
-                                <button className="  ml-4 border-2 border-white text-white px-4 py-2 items-center rounded-lg cursor-pointer">
-                                    <img src="/shoppingCard.png" alt="cart" className="w-5 h-5 inline-block" />
-                                </button>
+                                <button className="mt-2 border-2 border-white text-white px-8 py-2 rounded-lg cursor-pointer">Explore</button>
+                                
                             </div>
                         </div>
 

@@ -80,7 +80,7 @@ const Home = () => {
             </section>
             
             <section className="px-10 py-16 mt-24">
-                <SectionTitle title="Our Trendy plants" />
+                <SectionTitle title="Our Best o2" />
                 <div className="grid">
                     {O2SectionData.map((p) => (
                         <O2Section key={p.id} {...p} />
@@ -88,19 +88,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <section className="px-10 py-16">
-                <SectionTitle title="Our Best o2" />
-                <div className="grid md:grid-cols-3 gap-8">
-                    <O2Section />
-                </div>
-            </section> */}
-
-
-
-            {/* O2 Section */}
-            {/* <div className="px-10"> */}
-                {/* <O2Section /> */}
-            {/* </div> */}
             <Footer />
         </div>
     );
