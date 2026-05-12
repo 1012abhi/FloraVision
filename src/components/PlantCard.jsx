@@ -3,7 +3,7 @@ export const PlantCard = ({ image, name, price, description }) => {
     return (
         <div className="relative">
             <div className="absolute left-32 -top-24 z-1  ">
-                <img src={image} alt={name} className=" w-[450px] h-[450px]" />
+                <img src={image} alt={name} className="w-112.5 h-112.5" />
             </div>
             <div className="flex justify-end p-4 rounded-4xl border border-white/25 shadow-md overflow-hidden hover:shadow-xl transition duration-300 backdrop-blur-sm">
                 <div className="p-4">
@@ -28,7 +28,7 @@ export const PlantCardTwo = ({ image, name, price, description }) => {
     return (
         <div className="relative">
             <div className="absolute right-32 -top-24 z-1">
-                <img src={image} alt={name} className=" w-[350px] h-[450px]" />
+                <img src={image} alt={name} className=" w-87.5 h-112.5" />
             </div>
             <div className="flex justify-start p-4 rounded-4xl border border-white/25 shadow-md overflow-hidden hover:shadow-xl transition duration-300 backdrop-blur-2xl drop-shadow-2xl">
                 <div className="p-4">
@@ -53,7 +53,7 @@ export const PlantTopSelling = ({ image, name, price, description }) => {
     return (
         <div className="relative">
             <div className="absolute -top-24 z-1 ">
-                <img src={image} alt={name} className=" w-[350px] h-[250px]" />
+                <img src={image} alt={name} className=" w-87.5 h-62.5" />
             </div>
             <div className="flex justify-start p-4 pt-38 rounded-4xl border border-white/25 shadow-md overflow-hidden hover:shadow-xl transition duration-300 backdrop-blur-2xl drop-shadow-2xl">
                 <div className="p-4">

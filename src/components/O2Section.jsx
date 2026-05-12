@@ -10,7 +10,7 @@ const O2Section = ({ image, name, price, description1, description2 }) => {
                         <img src={image} alt={name} className="w-full h-full" />
                     </div>
                     <div className="flex justify-end p-4 rounded-4xl border border-white/25 shadow-md overflow-hidden hover:shadow-xl transition duration-300 backdrop-blur-sm">
-                        <div className="w-1/2 h-[450px]" />
+                        <div className="w-1/2 h-112.5" />
                         <div className="text-start w-1/2 p-4">
                             <h3 className="font-semibold text-2xl text-white py-4">{name}</h3>
                             <p className="text-white" style={{ whiteSpace: 'pre-wrap' }}>{description1}</p>
